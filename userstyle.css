@@ -1,3 +1,4 @@
+@-moz-document domain("steamgifts.com") {
 p,.discussions .details .title,.discussions .details .title a {
   color: rgba(0, 194, 255, 0.62) !important;
 }
@@ -412,8 +413,6 @@ input[type="submit"] {
 
 .contributor_only {
   text-shadow: 1px 1px #000 !important;
-
-  -webkit-box-shadow: 0 5px 5px #000 !important;
   box-shadow: 0 5px 5px #000 !important;
 }
 
@@ -438,10 +437,6 @@ div[style] {
 }
 
 .submit_form {
-  background-image: -webkit-linear-gradient(rgba(0, 85, 151, 1) 0%, rgb(0, 27, 95) 100%) !important;
-  background-image: -moz-linear-gradient(rgba(0, 85, 151, 1) 0%, rgb(0, 27, 95) 100%) !important;
-  background-image: -o-linear-gradient(rgba(0, 85, 151, 1) 0%, rgb(0, 27, 95) 100%) !important;
-  background-image: -ms-linear-gradient(rgba(0, 85, 151, 1) 0%, rgb(0, 27, 95) 100%) !important;
   background-image: linear-gradient(rgba(0, 85, 151, 1) 0%, rgb(0, 27, 95) 100%) !important;
   text-shadow: none !important;
 }
@@ -504,4 +499,6 @@ div[style] {
 
 .register .important,.invites .row.first,.invites .divider,.invites .row {
   padding-left: 5px;
+}
+
 }
